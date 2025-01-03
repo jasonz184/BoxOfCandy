@@ -46,7 +46,15 @@ public class BoxOfCandy
     * returns null if no such piece is found, as described in part (b)
     */
     public Candy removeNextByFlavor(String flavor)
-    { /* to be implemented in part (b) */ }
+    {
+        for(int row = box.length - 1; row >= 0; row--)
+        {
+            for(int col = 0; col < box[0].length; col++)
+            {
+                Candy c = box[row][col];
+            }
+        }
+    }
 
     // There may be instance variables, constructors, and methods that are not shown.
 }
